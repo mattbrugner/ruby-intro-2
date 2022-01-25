@@ -6,4 +6,12 @@ things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts"]
 
 # The Old Way
 
+puts "bacon #{things_that_would_be_better_with_bacon[0]}"
+
 # The New Way
+puts "---------"
+puts "The New Way"
+
+for thing in things_that_would_be_better_with_bacon
+    puts "bacon #{thing}"
+end

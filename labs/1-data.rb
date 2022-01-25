@@ -20,3 +20,10 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+roll_1 = rand (1..6)
+roll_2 = rand (1..6)
+
+puts "Roll 1 = #{roll_1}"
+puts "Roll 2 = #{roll_2}"
+puts "Total = #{roll_1 + roll_2}"
